@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
+.activeLink {
+  background-color: rgb(32, 110, 133) !important;
+  color: black;
+}

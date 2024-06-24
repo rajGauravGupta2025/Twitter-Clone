@@ -1,0 +1,38 @@
+#blue-box {
+  width: 100%;
+  height: 9em;
+  background-color: rgb(218, 71, 8);
+}
+
+#profilePicture {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 3.2rem;
+  object-fit: cover;
+}
+
+.profile-icon-row {
+  height: 4rem !important;
+}
+
+.home-button {
+  background-color: #3d1eed !important;
+}
+
+.profile-button {
+  background-color: rgb(97, 131, 231);
+}
+
+@media only screen and (max-width: 600px) {
+  .sticky-top-sm {
+    position: sticky;
+    top: 1px;
+    z-index: 50; /* Override the sticky behavior */
+  }
+
+  .modal-button {
+    font-size: 12px;
+  }
+}

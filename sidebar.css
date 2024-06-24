@@ -1,0 +1,62 @@
+.side-bar-row {
+  border-right: 1px solid rgb(65, 158, 220);
+  height: 100vh;
+  position: fixed !important;
+  width: 24.5% !important;
+  background-color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #1fbcdc;
+}
+
+img.side-bar-profile-icon {
+  border-radius: 50% !important;
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+}
+
+.nav-section button {
+  min-width: 90%;
+  color: rgb(37, 35, 109);
+  background-color: #fff;
+  border: none;
+  margin: 4px;
+  border-radius: 1rem;
+}
+
+.home-button {
+  background-color: rgb(141, 168, 152) !important;
+  min-width: 90%;
+}
+
+.nav-section button:hover {
+  background-color: rgb(141, 168, 152);
+  color: black;
+}
+
+.nav-section button:active {
+  background-color: rgb(134, 228, 148) !important;
+  color: black !important;
+}
+
+.username-info:hover {
+  background-color: rgb(141, 168, 152);
+}
+
+.second-column {
+  border-right: 1px solid rgb(218, 211, 211);
+  min-height: 100vh;
+  max-height: fit-content;
+}
+
+.fa-twitter {
+  font-size: xx-large;
+  margin-left: 53%;
+}
+
+.navbarr {
+  background-color: #fff;
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: whitesmoke;
+}
+
+#left-box-login {
+  background-color: rgb(37, 22, 95);
+  color: white;
+}
+
+button {
+  background-color: rgb(13, 23, 73);
+  color: white;
+  border-radius: 0.3rem;
+}
+
+div.card-body {
+  padding: 0;
+}
+
+#login-text {
+  margin-top: 16%;
+}
+
+.spinner {
+  position: absolute;
+  top: 4px;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .spinner {
+    position: absolute;
+    top: 4px !important;
+    left: 5vw;
+  }
+}
